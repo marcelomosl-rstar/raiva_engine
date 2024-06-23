@@ -1,0 +1,3 @@
+[submodule "Raiva/vendor/spdlog"]
+	path = Raiva/vendor/spdlog
+	url = https://github.com/gabime/spdlog

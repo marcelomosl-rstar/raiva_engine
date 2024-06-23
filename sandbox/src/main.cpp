@@ -1,12 +1,16 @@
+#include <Raiva.h>
 
-namespace Raiva {
-	__declspec(dllimport) void Print();
-}
+class Sandbox : public Raiva::Application {
+public:
+	Sandbox() {
 
+	}
+	~Sandbox() {
 
-int main() {
-	
-	Raiva::Print();
+	}
+};
 
-	return 0;
+Raiva::Application* Raiva::CreateApp()
+{
+	return new Sandbox();
 }

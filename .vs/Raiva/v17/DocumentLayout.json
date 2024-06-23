@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\dev\\Raiva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7185CEB5-5695-4B8A-9E01-46F5F1C901A2}|Raiva\\Raiva.vcxproj|C:\\dev\\Raiva\\Raiva\\src\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7185CEB5-5695-4B8A-9E01-46F5F1C901A2}|Raiva\\Raiva.vcxproj|solutionrelative:Raiva\\src\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|C:\\dev\\Raiva\\Raiva\\src\\Engine\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|solutionrelative:Raiva\\src\\Engine\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7185CEB5-5695-4B8A-9E01-46F5F1C901A2}|Raiva\\Raiva.vcxproj|C:\\dev\\Raiva\\Raiva\\src\\Test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7185CEB5-5695-4B8A-9E01-46F5F1C901A2}|Raiva\\Raiva.vcxproj|solutionrelative:Raiva\\src\\Test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|C:\\dev\\Raiva\\Raiva\\src\\Engine\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|solutionrelative:Raiva\\src\\Engine\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|C:\\dev\\Raiva\\Raiva\\src\\Engine\\Core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|solutionrelative:Raiva\\src\\Engine\\Core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|C:\\dev\\Raiva\\Raiva\\src\\Engine\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|solutionrelative:Raiva\\src\\Engine\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\Raiva\\premake5.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:premake5.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|C:\\dev\\Raiva\\Raiva\\src\\Raiva.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|solutionrelative:Raiva\\src\\Raiva.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|C:\\dev\\Raiva\\Raiva\\src\\Engine\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|solutionrelative:Raiva\\src\\Engine\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|C:\\dev\\Raiva\\Raiva\\src\\Engine\\EntryPoint.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78D8010E-E4EC-29BF-AD6E-CD1E194226F0}|Raiva\\Raiva.vcxproj|solutionrelative:Raiva\\src\\Engine\\EntryPoint.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +42,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Test.h",
-              "DocumentMoniker": "C:\\dev\\Raiva\\Raiva\\src\\Test.h",
-              "RelativeDocumentMoniker": "Raiva\\src\\Test.h",
-              "ToolTip": "C:\\dev\\Raiva\\Raiva\\src\\Test.h",
-              "RelativeToolTip": "Raiva\\src\\Test.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "Log.h",
+              "DocumentMoniker": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Log.h",
+              "RelativeDocumentMoniker": "Raiva\\src\\Engine\\Log.h",
+              "ToolTip": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Log.h",
+              "RelativeToolTip": "Raiva\\src\\Engine\\Log.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-21T22:05:20.945Z",
+              "WhenOpened": "2024-06-21T23:39:57.491Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Test.cpp",
-              "DocumentMoniker": "C:\\dev\\Raiva\\Raiva\\src\\Test.cpp",
-              "RelativeDocumentMoniker": "Raiva\\src\\Test.cpp",
-              "ToolTip": "C:\\dev\\Raiva\\Raiva\\src\\Test.cpp",
-              "RelativeToolTip": "Raiva\\src\\Test.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "DocumentIndex": 5,
+              "Title": "Raiva.h",
+              "DocumentMoniker": "C:\\dev\\Raiva\\Raiva\\src\\Raiva.h",
+              "RelativeDocumentMoniker": "Raiva\\src\\Raiva.h",
+              "ToolTip": "C:\\dev\\Raiva\\Raiva\\src\\Raiva.h",
+              "RelativeToolTip": "Raiva\\src\\Raiva.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-22T18:30:06.521Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "premake5.lua",
+              "DocumentMoniker": "C:\\dev\\Raiva\\premake5.lua",
+              "RelativeDocumentMoniker": "premake5.lua",
+              "ToolTip": "C:\\dev\\Raiva\\premake5.lua",
+              "RelativeToolTip": "premake5.lua",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-22T19:08:39.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Log.cpp",
+              "DocumentMoniker": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Log.cpp",
+              "RelativeDocumentMoniker": "Raiva\\src\\Engine\\Log.cpp",
+              "ToolTip": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Log.cpp",
+              "RelativeToolTip": "Raiva\\src\\Engine\\Log.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-21T22:17:00.079Z",
+              "WhenOpened": "2024-06-22T18:35:00.068Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Application.cpp",
+              "DocumentMoniker": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Application.cpp",
+              "RelativeDocumentMoniker": "Raiva\\src\\Engine\\Application.cpp",
+              "ToolTip": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Application.cpp",
+              "RelativeToolTip": "Raiva\\src\\Engine\\Application.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-22T18:34:54.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Core.h",
+              "DocumentMoniker": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Core.h",
+              "RelativeDocumentMoniker": "Raiva\\src\\Engine\\Core.h",
+              "ToolTip": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Core.h",
+              "RelativeToolTip": "Raiva\\src\\Engine\\Core.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-21T23:15:18.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Application.h",
+              "DocumentMoniker": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Application.h",
+              "RelativeDocumentMoniker": "Raiva\\src\\Engine\\Application.h",
+              "ToolTip": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\Application.h",
+              "RelativeToolTip": "Raiva\\src\\Engine\\Application.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-21T23:00:35.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EntryPoint.h",
+              "DocumentMoniker": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\EntryPoint.h",
+              "RelativeDocumentMoniker": "Raiva\\src\\Engine\\EntryPoint.h",
+              "ToolTip": "C:\\dev\\Raiva\\Raiva\\src\\Engine\\EntryPoint.h",
+              "RelativeToolTip": "Raiva\\src\\Engine\\EntryPoint.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-21T22:57:18.387Z"
             }
           ]
         }
