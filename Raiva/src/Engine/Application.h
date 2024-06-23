@@ -1,10 +1,10 @@
 #pragma once
 #include "Core.h"
+#include "Events/Event.h"
 
 namespace Raiva {
 
-	class RAIVA_API Application
-	{
+	class RAIVA_API Application {
 	public:
 		Application();
 		virtual ~Application();
@@ -13,5 +13,5 @@ namespace Raiva {
 	};
 
 	// to be defined in the Client ??? what ever that means.
-	 Application* CreateApp();
+	Application* CreateApp();
 }

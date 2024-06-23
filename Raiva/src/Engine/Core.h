@@ -2,11 +2,13 @@
 
 
 #ifdef RV_PLATFORM_WINDOWS
-	#ifdef RV_BUILD_DLL
-		#define RAIVA_API __declspec(dllexport)
-	#else
-		#define RAIVA_API __declspec(dllimport)
-	#endif
+#ifdef RV_BUILD_DLL
+#define RAIVA_API __declspec(dllexport)
 #else
-	#error Raiva Engine only supports windows for now.
+#define RAIVA_API __declspec(dllimport)
 #endif
+#else
+#error Raiva Engine only supports windows for now.
+#endif
+
+#define BIT(x) (1 << x)
