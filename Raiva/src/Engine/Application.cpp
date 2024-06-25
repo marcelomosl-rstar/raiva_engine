@@ -1,13 +1,12 @@
+#include "rvpch.h"
 #include "Application.h"
-
 #include "Engine/Events/ApplicationEvent.h"
 #include "Engine/Log.h"
 
-#include <iostream>
 namespace Raiva {
 	// Constructor
 	Application::Application() {
-
+		m_Window = std::unique_ptr<Window>(Window::Create());
 	}
 
 	//Destructor
@@ -18,12 +17,14 @@ namespace Raiva {
 	void Application::Run() {
 
 		// Example of Event Listener Usage
-		WindowResizeEvent e(100, 100);
-		RV_TRACE(e.ToString());
+		//WindowResizeEvent e(100, 100);
+		//RV_TRACE(e.ToString());
 
 
 
-		while (true);
+		while (true) {
+			m_Window->OnUpdate();
+		}
 	}
 
 };

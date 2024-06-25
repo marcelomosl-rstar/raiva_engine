@@ -10,6 +10,14 @@ workspace "Raiva"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include Dirs
+IncludeDir = {}
+IncludeDir["GLFW"] = "Raiva/vendor/GLFW/include"
+
+
+include "Raiva/vendor/GLFW"
+
+
 
 project "Raiva"
 	location "Raiva"
@@ -18,6 +26,9 @@ project "Raiva"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+
+	pchheader "rvpch.h"
+	pchsource "Raiva/src/rvpch.cpp"
 
 	files
 	{
@@ -28,7 +39,14 @@ project "Raiva"
 	includedirs
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links
+	{
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"
