@@ -11,8 +11,9 @@ namespace Raiva {
 		unsigned int Width;
 		unsigned int Height;
 
-		WindowProps(const std::string& title = "Raiva Engine", unsigned int width = 1280, unsigned int height = 720)
-			: Title(title), Width(Width), Height(height) {};
+		WindowProps(const std::string& title = "Raiva Engine",
+			unsigned int width = 1280, unsigned int height = 720)
+			: Title(title), Width(width), Height(height) {};
 
 	};
 
@@ -29,7 +30,7 @@ namespace Raiva {
 		virtual unsigned int GetHeight() const = 0;
 
 
-		// Window Attributes
+		// Window Attributes	
 
 		virtual void SetEventCallback(const EventCallbackFn& callback) = 0;
 		virtual void SetVsync(bool enabled) = 0;
@@ -37,8 +38,6 @@ namespace Raiva {
 
 
 		static Window* Create(const WindowProps& props = WindowProps());
-
-
 	};
 }
 

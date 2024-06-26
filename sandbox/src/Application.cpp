@@ -2,12 +2,9 @@
 
 class Sandbox : public Raiva::Application {
 public:
-	Sandbox() {
+	Sandbox() {}
 
-	}
-	~Sandbox() {
-
-	}
+	~Sandbox() {}
 };
 
 Raiva::Application* Raiva::CreateApp()

@@ -28,7 +28,7 @@ namespace Raiva {
 #define RV_CORE_WARN(...)  ::Raiva::Log::GetCoreLogger()->warn(__VA_ARGS__)
 #define RV_CORE_INFO(...)  ::Raiva::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define RV_CORE_TRACE(...) ::Raiva::Log::GetCoreLogger()->trace(__VA_ARGS__)
-#define RV_CORE_FATAL(...) ::Raiva::Log::GetCoreLogger()->fatal(__VA_ARGS__)
+#define RV_CORE_FATAL(...) ::Raiva::Log::GetCoreLogger()->critical(__VA_ARGS__)
 
 
 // Client Log Macros
@@ -36,6 +36,6 @@ namespace Raiva {
 #define RV_WARN(...)  ::Raiva::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define RV_INFO(...)  ::Raiva::Log::GetClientLogger()->info(__VA_ARGS__)
 #define RV_TRACE(...) ::Raiva::Log::GetClientLogger()->trace(__VA_ARGS__)
-#define RV_FATAL(...) ::Raiva::Log::GetClientLogger()->fatal(__VA_ARGS__)
+#define RV_FATAL(...) ::Raiva::Log::GetClientLogger()->critical(__VA_ARGS__)
 
 

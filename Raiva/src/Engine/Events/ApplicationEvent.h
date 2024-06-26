@@ -26,7 +26,6 @@ namespace Raiva {
 		unsigned int m_Height;
 	};
 
-
 	class RAIVA_API WindowCloseEvent : public Event {
 	public:
 		WindowCloseEvent() {};
@@ -44,7 +43,6 @@ namespace Raiva {
 		EVENT_CLASS_CATEGORY(EventCategoryApplicaiton);
 	};
 
-
 	class RAIVA_API AppUpdateEvent : public Event {
 	public:
 		AppUpdateEvent() {};
@@ -53,7 +51,6 @@ namespace Raiva {
 		EVENT_CLASS_TYPE(AppUpdate);
 		EVENT_CLASS_CATEGORY(EventCategoryApplicaiton);
 	};
-
 
 	class RAIVA_API AppRenderEvent : public Event {
 	public:

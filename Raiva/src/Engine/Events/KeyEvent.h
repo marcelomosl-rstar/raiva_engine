@@ -17,7 +17,6 @@ namespace Raiva {
 		int m_KeyCode;
 	};
 
-
 	class RAIVA_API KeyPressedEvent : public KeyEvent {
 	public:
 		KeyPressedEvent(int keyCode, int repeatCount) : KeyEvent(keyCode), m_RepeatCount(repeatCount) {};
@@ -37,8 +36,6 @@ namespace Raiva {
 		int m_RepeatCount;
 	};
 
-
-
 	class RAIVA_API KeyReleasedEvent : public KeyEvent {
 	public:
 		KeyReleasedEvent(int keyCode) : KeyEvent(keyCode) {};
@@ -52,7 +49,5 @@ namespace Raiva {
 
 		EVENT_CLASS_TYPE(KeyReleased)
 	};
-
-
 
 }

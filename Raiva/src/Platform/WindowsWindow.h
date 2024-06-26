@@ -4,7 +4,6 @@
 
 namespace Raiva {
 
-
 	class WindowsWindow : public Window {
 	public:
 		WindowsWindow(const WindowProps& props);
@@ -33,11 +32,11 @@ namespace Raiva {
 			unsigned int Width, Height;
 			bool Vsync;
 
-
 			EventCallbackFn EventCallback;
 		};
 
 		WindowData m_Data;
 
 	};
+
 }

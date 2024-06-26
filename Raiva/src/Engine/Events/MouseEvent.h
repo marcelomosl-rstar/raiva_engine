@@ -19,8 +19,8 @@ namespace Raiva {
 		}
 
 
-		EVENT_CLASS_TYPE(MouseMovedEvent);
-		EVENT_CLASS_CATEGORY(EventCategory | EventCategoryInput);
+		EVENT_CLASS_TYPE(MouseMoved);
+		EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput);
 	private:
 		float m_MouseX{};
 		float m_MouseY{};
@@ -62,10 +62,10 @@ namespace Raiva {
 		int m_Button;
 	};
 
-	class RAIVA_API MousePressedEvent : public MouseButtonEvent {
+	class RAIVA_API MouseButtonPressedEvent : public MouseButtonEvent {
 
 	public:
-		MousePressedEvent(int button) : MouseButtonEvent(button) {};
+		MouseButtonPressedEvent(int button) : MouseButtonEvent(button) {};
 
 		std::string ToString() const override {
 
@@ -77,9 +77,9 @@ namespace Raiva {
 		EVENT_CLASS_TYPE(MouseButtonPressed);
 	};
 
-	class RAIVA_API MouseReleasedEvent : public MouseButtonEvent {
+	class RAIVA_API MouseButtonReleasedEvent : public MouseButtonEvent {
 	public:
-		MouseReleasedEvent(int button) : MouseButtonEvent(button) {};
+		MouseButtonReleasedEvent(int button) : MouseButtonEvent(button) {};
 
 		std::string ToString() const override {
 			std::stringstream ss;
